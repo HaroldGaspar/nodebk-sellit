@@ -1,10 +1,10 @@
 {
   "type": "mysql",
-  "host": "localhost",
+  "host": "sellit.c4uxqbgjupn2.us-east-1.rds.amazonaws.com",
   "port": "3306",
-  "username": "root",
-  "password": "faztpassword",
-  "database": "test",
+  "username": "admin",
+  "password": "123456aB",
+  "database": "type",
   "entities": ["dist/entity/**/*.js"],
   "logging": false,
   "synchronize": true

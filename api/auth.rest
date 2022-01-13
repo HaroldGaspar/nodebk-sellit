@@ -1,0 +1,26 @@
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "tu",
+    "email": "tu@mail.com",
+    "password": "123456",
+    "store": "mystorex"
+}
+
+###
+POST http://localhost:3000/authenticate
+Content-Type: application/json
+
+{
+    "email": "tu@mail.com",
+    "password": "123456"
+}
+
+###
+GET http://localhost:3000/vfm?tk=546556
+Content-Type: application/json
+
+{
+}

@@ -1,0 +1,36 @@
+###
+POST http://localhost:3000/cartDetails/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwic3RvcmUiOjMxLCJjYXJ0Ijo3LCJpYXQiOjE2NDEzMTEzNjd9.HpWiPP03dAvNHofFESHjXLtB9dlLeCbUbmxSltQlhYo
+
+###
+PUT http://localhost:3000/cartDetails/2
+Content-Type: application/json
+
+{
+    "qty": 4
+}
+
+###
+DELETE http://localhost:3000/cartDetails/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwiY2FydCI6NiwiaWF0IjoxNjM4OTIxNTQxfQ.gNYWnkVYrPziMmewNdhQA8zuQt-eoM-86O81YQLBCeQ
+
+###
+GET http://localhost:3000/cartDetails
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwiY2FydCI6NywiaWF0IjoxNjM4OTc1MTI2fQ.FcVmdFR5GjCtEbmMTNhrUVu9jFWTJYEJ8BMXD00Y2Xo
+
+##############
+
+###
+GET http://localhost:3000/carts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwiY2FydCI6NywiaWF0IjoxNjM4OTc1MTI2fQ.FcVmdFR5GjCtEbmMTNhrUVu9jFWTJYEJ8BMXD00Y2Xo
+
+
+###
+POST http://localhost:3000/carts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwiY2FydCI6NiwiaWF0IjoxNjM4OTIxNTQxfQ.gNYWnkVYrPziMmewNdhQA8zuQt-eoM-86O81YQLBCeQ
+Content-Type: application/json
+
+{
+    "totalPrice": 499.89
+}
+

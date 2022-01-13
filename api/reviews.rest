@@ -1,0 +1,13 @@
+###
+POST http://localhost:3000/reviews/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwic3RvcmUiOjMxLCJjYXJ0Ijo3LCJpYXQiOjE2Mzg5Nzc0NjF9.48pqB-btR-DF4EUxwQHA45BG45HuTui8nfAJ_DvCgNU
+Content-Type: application/json
+
+{
+    "comment": "is so weird",
+    "stars":3
+}
+
+###
+GET http://localhost:3000/reviews?product=3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwic3RvcmUiOjMxLCJjYXJ0Ijo3LCJpYXQiOjE2Mzg5Nzc0NjF9.48pqB-btR-DF4EUxwQHA45BG45HuTui8nfAJ_DvCgNU

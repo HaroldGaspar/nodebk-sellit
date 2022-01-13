@@ -1,0 +1,46 @@
+###
+GET http://localhost:3000/products-last/1
+
+###
+GET http://localhost:3000/products-popular
+
+###
+GET http://localhost:3000/categories/2
+
+###
+POST http://localhost:3000/categories
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwic3RvcmUiOjMxLCJjYXJ0Ijo3LCJpYXQiOjE2NDEwOTY2Njd9.--CoVXSW1UJRGkg3P_FSbZQSXDUx8KjLARhdh12ivJk
+Content-Type: application/json
+
+{
+    "name": "polos mujer"
+}
+
+###################### IS SELLER ######################
+
+###
+GET http://localhost:3000/products
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwic3RvcmUiOjMxLCJjYXJ0Ijo3LCJpYXQiOjE2NDE3MzQxNjd9.MqcA-RdjebK3ACNSFLUAzlY5LRZ5udd_Tk68Tgq6MnA
+
+###
+POST http://localhost:3000/products
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjgxLCJjdXN0b21lciI6MjMsInVzZXJuYW1lIjoidHUiLCJpc1NlbGxlciI6dHJ1ZSwic3RvcmUiOjMxLCJjYXJ0Ijo3LCJpYXQiOjE2Mzg5Nzc0NjF9.48pqB-btR-DF4EUxwQHA45BG45HuTui8nfAJ_DvCgNUContent-Type: application/json
+
+{
+    "name": "product test 23",
+    "mark": "sinmarca",
+    "price": 9.99,
+    "stock": 100,
+    "photo": "http://hakhi.xyz:8000/uploads/nia_33d10d0dba.jpg",
+    "description": "",
+    "category": 2
+}
+
+###
+PUT http://localhost:3000/products/3
+Content-Type: application/json
+
+{
+    "price": 2.89,
+    "stock": 20
+}
